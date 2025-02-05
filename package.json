@@ -1,5 +1,5 @@
 {
-  "name": "website-project",
+  "name": "portifolio",
   "version": "1.0.0",
   "description": "A simple website project with multiple pages and reusable components.",
   "main": "src/scripts/main.js",
@@ -13,7 +13,7 @@
     "css",
     "javascript"
   ],
-  "author": "Your Name",
+  "author": "Juliana Lemos",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {

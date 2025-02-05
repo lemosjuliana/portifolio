@@ -3,31 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Juliana</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
     <header id="header">
-        <!-- Header content will be included here -->
+        <!-- Include header component here -->
         <!-- This is being replaced by the header.html component -->
     </header>
     <main>
-        <h1>Hi, my name is Juliana</h1>
-        <h2>Welcome to my website</h2>
-        <img src="../assets/images/juliana.jpg" alt="Juliana's photo">
-        <p>This is the main landing page of the website.</p>
+        <h1>Contact Me</h1>
+        <p>Welcome to the About page. Here you can learn more about our mission and values.</p>
     </main>
     <footer>
         <p>&copy; 2025 Juliana's Portifolio. All rights reserved.</p>
     </footer>
-    <script src="../assets/js/scripts.js"></script>
+    <script src="../assets/js/main.js"></script>
     <script>
     // Load header.html content into the header element
         fetch('../components/header.html')
         .then(response => response.text())
         .then(data => {
-            document.getElementById('header').innerHTML = data;
+            document.querySelector('header').innerHTML = data;
         });
     </script>
-</body>
+    </body>
 </html>
